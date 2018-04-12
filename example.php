@@ -3,6 +3,7 @@
 $taxonomy_term = 'example';
 
 $related_terms = array(
+
   __( 'Parent' ) => array(
     __( 'Child 1' ),
     __( 'Child 2' ),
@@ -11,6 +12,7 @@ $related_terms = array(
     __( 'Child 3' ),
     __( 'Child 4' ),
   ),
+
 );
 
 foreach ($related_terms as $key => $term) {
